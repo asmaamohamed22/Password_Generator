@@ -1,3 +1,3 @@
 # random password generator
-# python tknter module
+# python tkinter module
 # task for concept of programming language
