@@ -39,3 +39,16 @@ def generate():
 def copyclip():
     random_password = entry.get()
     pyperclip.copy(random_password)
+    
+root = Tk()
+var = IntVar()
+var1 = IntVar()
+
+root.title("Random Password Generator")
+root.geometry("330x250")
+
+Random_password = Label(root,text="Password")
+Random_password.place(x=20,y=30)
+
+entry = Entry(root)
+entry.place(x=90,y=30,width= 200)
