@@ -30,4 +30,12 @@ def low():
         return password
     else:
         print("Please Choose an option")
+        
+def generate():
+    password1 = low()
+    entry.insert(10,password1)
 
+
+def copyclip():
+    random_password = entry.get()
+    pyperclip.copy(random_password)
