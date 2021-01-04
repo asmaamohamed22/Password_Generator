@@ -52,3 +52,19 @@ Random_password.place(x=20,y=30)
 
 entry = Entry(root)
 entry.place(x=90,y=30,width= 200)
+
+
+
+
+c_label = Label(root,text="Length")
+c_label.place(x=20,y=70)
+
+copy_button = Button(root,text="Copy",command=copyclip)
+copy_button.place(x=40,y=180,width=110)
+
+generate_button = Button(root,text="Generate",command=generate)
+generate_button.place(x=160,y=180,width=110)
+
+
+
+
