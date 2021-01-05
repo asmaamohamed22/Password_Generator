@@ -70,4 +70,10 @@ radio_med.place(x=120, y=120)
 radio_strong = Radiobutton(root,text="Strong",variable=var,value=3)
 radio_strong.place(x=200, y=120)
 
+combo = Combobox(root,textvariable=var1)
+combo['values']=(8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32)
+combo.current(0)
+combo.bind('<<ComboboxSelected>>')
+combo.place(x=90,y=70)
 
+root.mainloop()
