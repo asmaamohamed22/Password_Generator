@@ -50,7 +50,7 @@ Random_password = Label(root,text="Password")
 Random_password.place(x=20,y=30)
 
 entry = Entry(root)
-entry.place(x=90,y=30,width= 200)
+entry.place(x=90,y=30)
 
 c_label = Label(root,text="Length")
 c_label.place(x=20,y=70)
